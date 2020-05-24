@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:paddingLeft="15dp"
+    android:paddingRight="15dp"
+    android:descendantFocusability="beforeDescendants">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="15dp"
+        android:paddingTop="15dp"
+        android:paddingBottom="15dp"
+        android:paddingRight="15dp"
+        android:background="@drawable/card_background_selector"
+        android:descendantFocusability="afterDescendants">
+
+        <TextView
+            android:id="@+id/document_line1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Text line 1"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/document_line2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Text line 2"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="15dp">
+
+            <ImageView
+                android:id="@+id/document_imageView"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_marginRight="10dp"
+                android:layout_weight="1"
+                app:srcCompat="@mipmap/icon_pdf" />
+
+            <TextView
+                android:id="@+id/document_line3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="hej123" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+</FrameLayout>

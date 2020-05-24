@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view"
+    android:layout_height="wrap_content"
+    android:layout_width="wrap_content">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_message"
+            android:icon="@drawable/ic_message"
+            android:title="Säkra meddelanden" />
+        <item
+            android:id="@+id/nav_about"
+            android:icon="@drawable/ic_info"
+            android:title="Om appen" />
+        <item
+            android:id="@+id/nav_terms"
+            android:icon="@drawable/ic_policy"
+            android:title="Villkor" />
+        <item
+            android:id="@+id/nav_gdpr"
+            android:icon="@drawable/ic_gdpr"
+            android:title="GDPR" />
+    </group>
+
+    <item android:title="Länkar">
+        <menu>
+            <item
+                android:id="@+id/nav_website"
+                android:icon="@drawable/ic_website"
+                android:title="Till trygghansa.se" />
+            <item
+                android:id="@+id/nav_serurityshop"
+                android:icon="@drawable/ic_shop"
+                android:title="Säkerhetsshoppen" />
+            <item
+                android:id="@+id/nav_benefits"
+                android:icon="@drawable/ic_benefits"
+                android:title="Kundförmåner" />
+        </menu>
+    </item>
+
+    <item android:title="Kontakta oss">
+        <menu>
+            <item
+                android:id="@+id/nav_injuryservice"
+                android:icon="@drawable/ic_call"
+                android:title="Skadeservice" />
+            <item
+                android:id="@+id/nav_privateservice"
+                android:icon="@drawable/ic_call"
+                android:title="Kundservice privat" />
+        </menu>
+    </item>
+
+</menu>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/navigation_home"
+        android:icon="@mipmap/icon_home"
+        android:title="@string/home" />
+
+    <item
+        android:id="@+id/navigation_payments"
+        android:icon="@mipmap/icon_payments"
+        android:title="@string/payments" />
+
+    <item
+        android:id="@+id/navigation_injury"
+        android:icon="@mipmap/icon_injurys"
+        android:title="@string/injury" />
+
+    <item
+        android:id="@+id/navigation_documents"
+        android:icon="@mipmap/icon_documents"
+        android:title="@string/documents" />
+
+    <item
+        android:id="@+id/navigation_profile"
+        android:icon="@mipmap/icons_profile"
+        android:title="@string/profile" />
+
+</menu>

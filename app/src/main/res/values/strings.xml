@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Trygg Hansa</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+
+    <string name="home">Startsida</string>
+    <string name="payments">Betalningar</string>
+    <string name="documents">Dokument</string>
+    <string name="injury">Skadeärenden</string>
+    <string name="profile">Min profil</string>
+
+    <string name="Home_Ensurance">Hemförsäkring</string>
+    <string name="Child_Ensurance">Barnförsäkring</string>
+    <string name="next_payment">Nästa betalning</string>
+
+    <string name="hello">Hello World, Set_Text_TitleBar!</string>
+    <color name="titlebackgroundcolor">#3232CD</color>
+    <color name="titletextcolor">#FFFF00</color>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+</resources>
